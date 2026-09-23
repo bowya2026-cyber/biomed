@@ -1,0 +1,134 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.event-detail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+  padding: 40px 56px 72px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+}
+
+.upcoming-event {
+  text-align: center;
+  width: 100%;
+  height: 25px;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  height: 70px;
+}
+
+.content {
+  text-align: center;
+  width: fit-content;
+  height: 24px;
+}
+
+.event-banner {
+  width: 100%;
+  height: 320px;
+  max-width: 900px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.description {
+  text-align: center;
+  width: 1200px;
+  height: fit-content;
+  max-width: 100%;
+}
+
+.location {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.event-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.register-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px 13px 20px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: var(--color-light-blue);
+}
+
+.register-for-this-event {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.contact-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px 13px 20px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: #EEF4FF;
+}
+
+.ask-a-question {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 1199px) {
+  .event-detail-content {
+    padding: 32px 20px 56px 20px;
+    max-width: 350px;
+  }
+
+  .title {
+    height: fit-content;
+  }
+
+  .event-banner {
+    height: 220px;
+    max-width: 350px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .event-actions {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}

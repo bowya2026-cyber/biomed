@@ -1,0 +1,1488 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  height: fit-content;
+  background-color: #FFFFFF;
+}
+
+.products-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  padding: 64px 56px 72px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1320px;
+  border-radius: 28px;
+  background-image: linear-gradient(135deg, rgb(248, 252, 255) 0%, rgb(238, 247, 251) 100%);
+}
+
+.hero-blue-organic-shape {
+  width: 260px;
+  height: 260px;
+  z-index: 0;
+  border-radius: 50%;
+  background-image: radial-gradient(rgba(135, 206, 235, 0.28) 0%, rgba(135, 206, 235, 0) 72%);
+}
+
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 22px;
+  width: 100%;
+  height: fit-content;
+  z-index: 1;
+}
+
+.products-back-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+}
+
+.back-home-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px 10px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #D9EAF0;
+  border-width: 1px;
+}
+
+.back-home-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.hero-eyebrow {
+  width: 100%;
+  height: fit-content;
+}
+
+.hero-headline {
+  width: 665px;
+  height: fit-content;
+}
+
+.hero-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.browse-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 22px 14px 22px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.browse-products-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.hero-feature-points {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.research-quality {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: fit-content;
+}
+
+.research-quality-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(135, 206, 235, 0.18);
+}
+
+.research-quality-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.trusted-equipment {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: fit-content;
+}
+
+.trusted-equipment-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(235, 213, 135, 0.28);
+}
+
+.trusted-equipment-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.expert-technical-support {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: fit-content;
+}
+
+.expert-support-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(135, 206, 235, 0.18);
+}
+
+.expert-support-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.hero-laboratory-visual {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  z-index: 1;
+}
+
+.biomedical-laboratory-image {
+  width: 100%;
+  height: 430px;
+  border-radius: 28px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/QQx4Lt6DED8QlWqlXKQqqrGVw4I.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.research-ready-badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 10px 14px 10px 14px;
+  width: fit-content;
+  height: fit-content;
+  z-index: 2;
+  border-radius: 999px;
+  background-color: #EBD587;
+}
+
+.research-ready-title {
+  width: fit-content;
+  height: fit-content;
+}
+
+.research-ready-subtitle {
+  width: fit-content;
+  height: fit-content;
+}
+
+.microscope-floating-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px 18px 16px 18px;
+  width: 250px;
+  height: fit-content;
+  z-index: 2;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.microscope-product-name {
+  width: 100%;
+  height: fit-content;
+}
+
+.microscope-availability {
+  width: 100%;
+  height: fit-content;
+}
+
+.benefits-strip {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 24px 20px 24px;
+  width: 67%;
+  height: fit-content;
+  max-width: 1088px;
+  z-index: 3;
+  border-radius: 22px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.fast-equipment-requests {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.fast-requests-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(135, 206, 235, 0.18);
+}
+
+.fast-requests-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.expert-technical-support2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.technical-support-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(235, 213, 135, 0.28);
+}
+
+.technical-support-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.research-collaboration {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.research-collaboration-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(135, 206, 235, 0.18);
+}
+
+.research-collaboration-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.featured-equipment-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 58px;
+  padding: 104px 56px 0px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1320px;
+}
+
+.featured-equipment-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+}
+
+.featured-equipment-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.featured-equipment-eyebrow {
+  width: 100%;
+  height: fit-content;
+}
+
+.featured-equipment-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.featured-equipment-canvas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+}
+
+.biomedical-making-fundamentals-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.equipment-image {
+  width: 100%;
+  height: 220px;
+  border-radius: 22px 22px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/bP7wG0k18GvN2rbc1OBN7ua3vOU.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 37px 18px 37px 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-category {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.price-and-cta-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-price {
+  width: fit-content;
+  height: fit-content;
+}
+
+.view-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.view-details-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.sensor-connectors-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.equipment-image2 {
+  width: 100%;
+  height: 220px;
+  border-radius: 22px 22px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/KrG6REVncxbOQar81GK0ge4d1g.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-meta2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 36px 18px 36px 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-category2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-title2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-description2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.price-and-cta-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-price2 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.view-details2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.view-details-label2 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.custom-flow-cells-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.equipment-image3 {
+  width: 100%;
+  height: 220px;
+  border-radius: 22px 22px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/tndcPJgMgnLA516E1aDEHLR2AE.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-meta3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 21px;
+  padding: 15px 18px 15px 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-category3 {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-title3 {
+  width: 509px;
+  height: fit-content;
+}
+
+.equipment-description3 {
+  width: 100%;
+  height: fit-content;
+}
+
+.price-and-cta-row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-price3 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.view-details3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.view-details-label3 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.equipment-image4 {
+  width: 100%;
+  height: 220px;
+  border-radius: 22px 22px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/QQx4Lt6DED8QlWqlXKQqqrGVw4I.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-meta4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 40px 18px 40px 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-category4 {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-title4 {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-description4 {
+  width: 100%;
+  height: fit-content;
+}
+
+.price-and-cta-row4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-price4 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.view-details4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.view-details-label4 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.equipment-image5 {
+  width: 100%;
+  height: 220px;
+  border-radius: 22px 22px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/lxX92kVoqEj5iBShIdMH83oOo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-meta5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 21px;
+  padding: 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-category5 {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-title5 {
+  width: 495px;
+  height: fit-content;
+}
+
+.equipment-description5 {
+  width: 100%;
+  height: fit-content;
+}
+
+.price-and-cta-row5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-price5 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.view-details5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.view-details-label5 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.custom-sensor-manufacture-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.equipment-image6 {
+  width: 100%;
+  height: 220px;
+  border-radius: 22px 22px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/p4yQhf7DSr5WpiZbCNpd3xGr7No.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-meta6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-category6 {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-title6 {
+  width: 453px;
+  height: fit-content;
+}
+
+.equipment-description6 {
+  width: 100%;
+  height: fit-content;
+}
+
+.price-and-cta-row6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-price6 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.view-details6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.view-details-label6 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.custom-biosensor-manufacture-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.equipment-image7 {
+  width: 100%;
+  height: 220px;
+  border-radius: 22px 22px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/bl9hsz07B6Q2R7Bm6mhEWLJUk.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-meta7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 19px;
+  padding: 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-category7 {
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-title7 {
+  width: 489px;
+  height: fit-content;
+}
+
+.equipment-description7 {
+  width: 100%;
+  height: fit-content;
+}
+
+.price-and-cta-row7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.equipment-price7 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.view-details7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.view-details-label7 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.community-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 112px 56px 112px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1320px;
+}
+
+.community-signup-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  padding: 42px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 28px;
+  background-image: linear-gradient(135deg, rgba(135, 206, 235, 0.24) 0%, rgba(235, 213, 135, 0.42) 100%);
+}
+
+.community-signup-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.community-eyebrow {
+  width: 100%;
+  height: fit-content;
+}
+
+.community-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.community-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.community-signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.email-field-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  height: fit-content;
+}
+
+.email-label-text {
+  width: 100%;
+  height: fit-content;
+}
+
+.community-quote-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 28px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.08);
+  border-width: 1px;
+}
+
+.quote-mark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #EBD587;
+}
+
+.quote-mark-text {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.community-quote {
+  width: 100%;
+  height: fit-content;
+}
+
+.community-quote-caption {
+  width: 100%;
+  height: fit-content;
+}
+
+.trust-and-values-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 28px;
+  padding: 96px 56px 375px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1320px;
+  background-color: #F8FCFF;
+}
+
+.trust-and-values-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.values-eyebrow {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.values-title {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.trust-values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  width: 96%;
+  height: fit-content;
+  z-index: 1;
+}
+
+.research-quality-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 14px 18px 14px;
+  width: 100%;
+  height: fit-content;
+}
+
+.research-quality-value-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(135, 206, 235, 0.18);
+}
+
+.research-quality-value-title {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.research-quality-value-copy {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.sustainable-innovation-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 14px 18px 14px;
+  width: 100%;
+  height: fit-content;
+}
+
+.sustainable-innovation-value-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(235, 213, 135, 0.28);
+}
+
+.sustainable-innovation-value-title {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.sustainable-innovation-value-copy {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.positive-research-impact-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 14px 18px 14px;
+  width: 100%;
+  height: fit-content;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(235, 213, 135, 0.28);
+}
+
+.text4 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.text5 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 0;
+  outline: none;
+  resize: vertical;
+}
+
+.form-input:focus {
+  border-bottom-color: currentColor;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .desktop {
+    gap: initial;
+  }
+
+  .products-hero {
+    flex-direction: column;
+    gap: 40px;
+    padding: 56px 40px 64px 40px;
+  }
+
+  .products-back-home {
+    max-width: 810px;
+  }
+
+  .biomedical-laboratory-image {
+    height: 360px;
+  }
+
+  .featured-equipment-section {
+    padding: 88px 40px 96px 40px;
+  }
+
+  .community-section {
+    padding: 88px 40px 96px 40px;
+  }
+
+  .community-signup-panel {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .quote-mark-text {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .trust-and-values-section {
+    padding: 80px 40px 96px 40px;
+  }
+
+  .trust-values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .desktop {
+    gap: initial;
+  }
+
+  .products-hero {
+    flex-direction: column;
+    gap: 28px;
+    padding: 32px 20px 56px 20px;
+  }
+
+  .hero-copy {
+    gap: 18px;
+  }
+
+  .products-back-home {
+    max-width: 390px;
+  }
+
+  .back-home-button {
+    display: none;
+  }
+
+  .hero-headline {
+    width: 100%;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .browse-products {
+    width: 100%;
+  }
+
+  .hero-feature-points {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .biomedical-laboratory-image {
+    height: 300px;
+  }
+
+  .microscope-floating-card {
+    width: 220px;
+  }
+
+  .benefits-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 18px;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .featured-equipment-section {
+    gap: 24px;
+    padding: 72px 20px 80px 20px;
+  }
+
+  .featured-equipment-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .featured-equipment-heading {
+    gap: 19px;
+  }
+
+  .featured-equipment-canvas-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-template-columns: initial;
+  }
+
+  .equipment-title3 {
+    width: 100%;
+  }
+
+  .equipment-title5 {
+    width: 100%;
+  }
+
+  .equipment-title6 {
+    width: 100%;
+  }
+
+  .equipment-title7 {
+    width: 100%;
+  }
+
+  .community-section {
+    padding: 72px 20px 80px 20px;
+  }
+
+  .community-signup-panel {
+    flex-direction: column;
+    gap: 22px;
+    padding: 26px 22px 26px 22px;
+  }
+
+  .community-quote-card {
+    display: none;
+  }
+
+  .quote-mark-text {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .trust-and-values-section {
+    display: none;
+    padding: 72px 20px 88px 20px;
+  }
+
+  .trust-values-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    grid-template-columns: initial;
+  }
+}

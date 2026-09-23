@@ -1,0 +1,291 @@
+.custom-orders-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.custom-orders-back-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  z-index: 10;
+}
+
+.back-home-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px 10px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #D9EAF0;
+  border-width: 1px;
+}
+
+.back-home-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.title-subtitle-spacing {
+  width: 100%;
+  height: 14px;
+}
+
+.custom-orders-enquiry {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 18px;
+  padding: 64px 56px 64px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+  border-radius: 24px;
+  background-color: #EAF4F7;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.text2 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.custom-orders-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 720px;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.name-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.name {
+  width: 100%;
+  height: fit-content;
+}
+
+.email-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.email {
+  width: 100%;
+  height: fit-content;
+}
+
+.message-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.project-details {
+  width: 100%;
+  height: fit-content;
+}
+
+.suggested-custom-routes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 18px;
+  padding: 64px 56px 88px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+}
+
+.custom-orders-faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  padding: 56px 0px 0px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.custom-orders-faq2 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.faq-questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+  max-width: 820px;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 18px 20px 18px 20px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #D9EAF0;
+  border-width: 1px;
+}
+
+.text4 {
+  width: 100%;
+  height: fit-content;
+}
+
+.text5 {
+  width: 100%;
+  height: fit-content;
+}
+
+.faq-how-long {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 18px 20px 18px 20px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #D9EAF0;
+  border-width: 1px;
+}
+
+.text6 {
+  width: 100%;
+  height: fit-content;
+}
+
+.text7 {
+  width: 100%;
+  height: fit-content;
+}
+
+.faq-how-to-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 18px 20px 18px 20px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #D9EAF0;
+  border-width: 1px;
+}
+
+.text8 {
+  width: 100%;
+  height: fit-content;
+}
+
+.text9 {
+  width: 100%;
+  height: fit-content;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 0;
+  outline: none;
+  resize: vertical;
+}
+
+.form-input:focus {
+  border-bottom-color: currentColor;
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 1199px) {
+  .back-home-button {
+    display: none;
+  }
+
+  .custom-orders-enquiry {
+    padding: 40px 20px 40px 20px;
+    max-width: 350px;
+  }
+
+  .custom-orders-form {
+    max-width: 100%;
+  }
+
+  .suggested-custom-routes {
+    padding: 48px 20px 72px 20px;
+    max-width: 350px;
+  }
+}

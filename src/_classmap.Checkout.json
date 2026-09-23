@@ -1,0 +1,166 @@
+{
+ "page": {
+  "Checkout Content|0": "checkout-content"
+ },
+ "components": {
+  "ProductEnquirySubmit": {
+   "layerName": "Product Enquiry Submit",
+   "variantNames": [
+    "Variant 1"
+   ],
+   "paths": {
+    "Variant 1|0": "variant-1",
+    "Variant 1>Send Product Enquiry|0": "send-product-enquiry"
+   }
+  },
+  "JoinNowSubmitButton": {
+   "layerName": "Join Now Submit Button",
+   "variantNames": [
+    "Default"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Join Now Label|0": "join-now-label"
+   }
+  },
+  "QuantityStepper": {
+   "layerName": "Quantity Stepper",
+   "variantNames": [
+    "Quantity 1",
+    "Quantity 2",
+    "Quantity 3",
+    "Quantity 4",
+    "Quantity 5"
+   ],
+   "paths": {
+    "Quantity 1|0": "quantity-1",
+    "Quantity 1>Decrease Quantity|0": "decrease-quantity",
+    "Quantity 1>Quantity|0": "quantity",
+    "Quantity 1>Increase Quantity|0": "increase-quantity"
+   }
+  },
+  "ProductRecommendationCard": {
+   "layerName": "Product Recommendation Card",
+   "variantNames": [
+    "Recommendation Card"
+   ],
+   "paths": {
+    "Recommendation Card|0": "recommendation-card",
+    "Recommendation Card>Product Image|0": "product-image",
+    "Recommendation Card>Product Content|0": "product-content",
+    "Recommendation Card>Product Content>Category|0": "category",
+    "Recommendation Card>Product Content>Title|0": "title",
+    "Recommendation Card>Product Content>Description|0": "description",
+    "Recommendation Card>Product Content>Card Footer|0": "card-footer",
+    "Recommendation Card>Product Content>Card Footer>Price|0": "price",
+    "Recommendation Card>Product Content>Card Footer>View Product|0": "view-product",
+    "Recommendation Card>Product Content>Card Footer>View Product>View Product|0": "view-product2"
+   }
+  },
+  "CartItem": {
+   "layerName": "Cart Item",
+   "variantNames": [
+    "Cart Item",
+    "Removed"
+   ],
+   "paths": {
+    "Cart Item|0": "cart-item",
+    "Cart Item>Equipment Image|0": "equipment-image",
+    "Cart Item>Product Details|0": "product-details",
+    "Cart Item>Product Details>Product Name|0": "product-name",
+    "Cart Item>Product Details>Product Description|0": "product-description",
+    "Cart Item>Product Details>Product Meta|0": "product-meta",
+    "Cart Item>Product Details>Product Meta>Product Category|0": "product-category",
+    "Cart Item>Product Details>Product Meta>Availability Badge|0": "availability-badge",
+    "Cart Item>Product Details>Product Meta>Availability Badge>Availability|0": "availability",
+    "Cart Item>Unit Price|0": "unit-price",
+    "Cart Item>Unit Price>Unit Label|0": "unit-label",
+    "Cart Item>Unit Price>Unit Value|0": "unit-value",
+    "Cart Item>Total|0": "total",
+    "Cart Item>Total>Total Label|0": "total-label",
+    "Cart Item>Total>Total Value|0": "total-value",
+    "Cart Item>Remove|0": "remove",
+    "Cart Item>Remove>Remove Label|0": "remove-label"
+   }
+  },
+  "ContactFormSubmit": {
+   "layerName": "Contact Form Submit",
+   "variantNames": [
+    "Default",
+    "Success"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Label|0": "label"
+   }
+  },
+  "EventRegistrationSubmit": {
+   "layerName": "Event Registration Submit",
+   "variantNames": [
+    "Default",
+    "Success"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Label|0": "label"
+   }
+  },
+  "BiomedShedNavigation": {
+   "layerName": "Biomed Shed Navigation",
+   "variantNames": [
+    "Desktop",
+    "Tablet",
+    "Phone",
+    "Phone Open"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Navigation Inner|0": "navigation-inner",
+    "Desktop>Navigation Inner>Brand Lockup|0": "brand-lockup",
+    "Desktop>Navigation Inner>Brand Lockup>Transparent Logo|0": "transparent-logo",
+    "Desktop>Navigation Inner>Brand Lockup>Biomed Shed Logo|0": "biomed-shed-logo",
+    "Desktop>Navigation Inner>Navigation Links|0": "navigation-links",
+    "Desktop>Navigation Inner>Navigation Links>Home|0": "home",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger|0": "products-menu-trigger",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger>Products|0": "products",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger>Products Dropdown|0": "products-dropdown",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger>Products Dropdown>Stack|0": "stack",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger>Products Dropdown>Stack>Off the Shelf|0": "off-the-shelf",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger>Products Dropdown>Stack|1": "stack2",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger>Products Dropdown>Stack>Custom Orders|0": "custom-orders",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger>Products Dropdown>Stack|2": "stack3",
+    "Desktop>Navigation Inner>Navigation Links>Products Menu Trigger>Products Dropdown>Stack>Training|0": "training",
+    "Desktop>Navigation Inner>Navigation Links>Facilities|0": "facilities",
+    "Desktop>Navigation Inner>Navigation Links>Gallery|0": "gallery",
+    "Desktop>Navigation Inner>Navigation Links>Publications|0": "publications",
+    "Desktop>Navigation Inner>Navigation Actions|0": "navigation-actions",
+    "Desktop>Navigation Inner>Navigation Actions>Contact CTA|0": "contact-cta",
+    "Desktop>Navigation Inner>Navigation Actions>Contact CTA>Contact|0": "contact",
+    "Desktop>Navigation Inner>Navigation Actions>Highlighted Cart|0": "highlighted-cart",
+    "Desktop>Navigation Inner>Navigation Actions>Highlighted Cart>0|0": "n-0",
+    "Desktop>Navigation Inner>Phone Navigation Actions|0": "phone-navigation-actions",
+    "Desktop>Navigation Inner>Phone Navigation Actions>Phone Cart Button|0": "phone-cart-button",
+    "Desktop>Navigation Inner>Phone Navigation Actions>Phone Cart Button>0|0": "n-02",
+    "Desktop>Navigation Inner>Phone Navigation Actions>Hamburger Menu Button|0": "hamburger-menu-button",
+    "Desktop>Navigation Inner>Phone Navigation Actions>Hamburger Menu Button>Menu Line Top|0": "menu-line-top",
+    "Desktop>Navigation Inner>Phone Navigation Actions>Hamburger Menu Button>Menu Line Bottom|0": "menu-line-bottom",
+    "Desktop>Mobile Navigation Drawer|0": "mobile-navigation-drawer",
+    "Desktop>Mobile Navigation Drawer>Menu Label|0": "menu-label",
+    "Desktop>Mobile Navigation Drawer>Home Link|0": "home-link",
+    "Desktop>Mobile Navigation Drawer>Home Link>Home Label|0": "home-label",
+    "Desktop>Mobile Navigation Drawer>Researchers Link|0": "researchers-link",
+    "Desktop>Mobile Navigation Drawer>Researchers Link>Researchers Label|0": "researchers-label",
+    "Desktop>Mobile Navigation Drawer>Products Link|0": "products-link",
+    "Desktop>Mobile Navigation Drawer>Products Link>Products Label|0": "products-label",
+    "Desktop>Mobile Navigation Drawer>Facilities Link|0": "facilities-link",
+    "Desktop>Mobile Navigation Drawer>Facilities Link>Facilities Label|0": "facilities-label",
+    "Desktop>Mobile Navigation Drawer>Gallery Link|0": "gallery-link",
+    "Desktop>Mobile Navigation Drawer>Gallery Link>Gallery Label|0": "gallery-label",
+    "Desktop>Mobile Navigation Drawer>Publications Link|0": "publications-link",
+    "Desktop>Mobile Navigation Drawer>Publications Link>Publications Label|0": "publications-label",
+    "Desktop>Mobile Navigation Drawer>Contact Link|0": "contact-link",
+    "Desktop>Mobile Navigation Drawer>Contact Link>Contact Label|0": "contact-label"
+   }
+  }
+ }
+}

@@ -1,0 +1,377 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.space-below-navigation {
+  width: 100%;
+  height: 24px;
+}
+
+.biomedshed {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.biomedshed-mark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px 8px 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.technology-profile {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.profile-carousel-shell {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  padding: 40px 0px 64px 0px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+}
+
+.abstract-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding: 37px 56px 37px 56px;
+  width: 100%;
+  height: fit-content;
+  min-height: 620px;
+  border-radius: 22px;
+  background-color: rgb(217, 234, 240);
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.abstract {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.text2 {
+  text-align: center;
+  width: 760px;
+  height: fit-content;
+  max-width: 760px;
+}
+
+.offerings-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 28px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  background-color: #0B2450;
+}
+
+.offerings {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.offerings-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 4px 0px 8px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.offering-connectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  width: 210px;
+  height: 120px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+}
+
+.n-3d-printed-connectors {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.text3 {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.offering-flow-cells {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  width: 210px;
+  height: 120px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #EBD587;
+}
+
+.custom-flow-cells {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.text4 {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.offering-print-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  width: 210px;
+  height: 120px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #EAF4F7;
+}
+
+.n-3d-print-design {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.text5 {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.offering-biosensors {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  width: 210px;
+  height: 120px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+}
+
+.biosensor-manufacture {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.text6 {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.offering-gold-electrodes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+  width: 210px;
+  height: 120px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #EBD587;
+}
+
+.laser-ablated-gold {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.coming-soon {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 1199px) {
+  .profile-carousel-shell {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding: 28px 20px 56px 20px;
+    max-width: 100%;
+    grid-template-columns: initial;
+  }
+
+  .abstract-card {
+    padding: 24px 20px 28px 20px;
+    max-width: 350px;
+    min-height: 0px;
+  }
+
+  .text2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .offerings-card {
+    padding: 22px 20px 24px 20px;
+    max-width: 350px;
+  }
+
+  .offerings-carousel {
+    max-width: 100%;
+  }
+
+  .n-3d-printed-connectors {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .text3 {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .custom-flow-cells {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .text4 {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .n-3d-print-design {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .text5 {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .biosensor-manufacture {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .text6 {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .laser-ablated-gold {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .coming-soon {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+}

@@ -1,0 +1,2009 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: white;
+}
+
+.opening-commerce-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 56px 60px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  border-radius: 28px;
+  overflow: hidden;
+  background-image: linear-gradient(135deg, rgb(238, 244, 255) 0%, rgb(221, 234, 255) 100%);
+}
+
+.opening-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  padding: 96px 24px 40px 24px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.opening-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.from-idea-to-prototype {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text {
+  width: 648px;
+  height: fit-content;
+}
+
+.text2 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.opening-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.shop-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 18px 13px 18px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: var(--color-light-blue);
+}
+
+.shop-products2 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.custom-orders {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 18px 13px 18px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #C8D7F3;
+  border-width: 1px;
+}
+
+.custom-orders2 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.opening-visual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+  height: 340px;
+  border-radius: 24px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/ebtkuRBQaFSe7GbKmZnBRwBgU.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-gap-above-learn {
+  width: 100%;
+  height: 12px;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+.learn-about-biomed-shed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding: 59px 56px 59px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #EAF4F7;
+}
+
+.learn-about-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.about-biomed-shed {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.learn-about-biomed-shed2 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text3 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.learn-about-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.learn-about-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 22px 13px 22px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: #0B2450;
+}
+
+.learn-more {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.linkedin-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 22px 13px 22px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: #EBD587;
+}
+
+.linkedin {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.featured-products-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 49px 56px 28px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+}
+
+.products-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.popular-products {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text4 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.all-products {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.popular-products-editable {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  padding: 0px 56px 78px 56px;
+  width: 1088px;
+  height: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.product-image {
+  align-self: stretch;
+  height: 190px;
+  border-radius: 18px 18px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/KrG6REVncxbOQar81GK0ge4d1g.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.custom-orders3 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.sensor-connectors {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text5 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.product-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 27px;
+  padding: 12px 14px 28px 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.starting-at-24-99 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.view-product-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px 8px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+.view-product {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.product-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.product-image2 {
+  align-self: stretch;
+  height: 190px;
+  border-radius: 18px 18px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/tndcPJgMgnLA516E1aDEHLR2AE.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-meta2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.custom-orders4 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text6 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text7 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.product-footer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 26px;
+  padding: 10px 14px 14px 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.starting-at-18 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.view-product-cta2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px 8px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+.view-product2 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.product-card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.product-image3 {
+  align-self: stretch;
+  height: 190px;
+  border-radius: 18px 18px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/QQx4Lt6DED8QlWqlXKQqqrGVw4I.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-meta3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.custom-orders5 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text8 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text9 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.product-footer3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 27px;
+  padding: 10px 14px 14px 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.starting-at-7 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.view-product-cta3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px 8px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+.view-product3 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.product-card4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.product-image4 {
+  align-self: stretch;
+  height: 190px;
+  border-radius: 18px 18px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/lxX92kVoqEj5iBShIdMH83oOo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-meta4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.custom-orders6 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text10 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text11 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.product-footer4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 27px;
+  padding: 10px 14px 14px 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.starting-at-400 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.view-product-cta4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px 8px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+.view-product4 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.product-card5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.product-image5 {
+  align-self: stretch;
+  height: 190px;
+  border-radius: 18px 18px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/bl9hsz07B6Q2R7Bm6mhEWLJUk.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-meta5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.custom-orders7 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.custom-sensor-manufacture {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text12 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.product-footer5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 29px;
+  padding: 10px 14px 14px 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.text13 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.view-product-cta5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px 8px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+.view-product5 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.product-card6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.product-image6 {
+  align-self: stretch;
+  height: 190px;
+  border-radius: 18px 18px 0px 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/p4yQhf7DSr5WpiZbCNpd3xGr7No.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.product-meta6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.custom-orders8 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.custom-biosensor-manufacture {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text14 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.product-footer6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 27px;
+  padding: 10px 14px 14px 14px;
+  align-self: stretch;
+  height: fit-content;
+  background-color: #F7FBFC;
+}
+
+.starting-at-1000 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.view-product-cta6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px 8px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+.view-product6 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.technology-researchers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 92px;
+  padding: 21px 56px 132px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  background-color: #FFFFFF;
+}
+
+.text15 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.editable-researcher-profiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  width: 1088px;
+  height: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.researcher-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/i8WpUwjwui7OTCIiGsGpT9SzE.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dr-alexandra-dobrea {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.founder-and-cto {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo2 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/02V8ofpjcCh8VonuOswBl21DgFs.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.alisdair-gordon {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.founder-and-cso {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile2 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo3 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/QC5ozHWx9Mxkv3dLOFyzylEdyM.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dr-jessie-howell {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.founder-and-ceo {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile3 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo4 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/XjDG07YyBJOixl6N2PWHlzMjo4A.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.oscar-weipers {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.development-engineer {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile4 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo5 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/FYrquPuCRw0MmOaqYYNa6DZvHGY.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.lilian-collins {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.chemist-and-production-associate {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile5 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo6 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/0fbD6aEZmveHt3SccWBXlKvbAI.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.prof-damion-corrigan {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.scientific-advisor {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile6 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo7 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/c4C2WWfc3Qmv6FZjahUCO4LSRk.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dr-melanie-jimenez {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.scientific-advisor2 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile7 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.new-researcher-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo8 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/KiP1lbvK5qzP4tBg8pQ7pXuJag.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bowya-subramanian {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.web-designer {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile8 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.work-with-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  padding: 72px 56px 72px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  background-color: #EEF4FF;
+}
+
+.work-with-us-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  flex: 1 1 0;
+  height: fit-content;
+}
+
+.let-s-work-together {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text16 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text17 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.enquiry-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 20px;
+  width: 360px;
+  height: fit-content;
+  max-width: 100%;
+  border-radius: 22px;
+  background-color: #FFFFFF;
+}
+
+.name-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.name {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.email-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.email {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.message-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text18 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.upcoming-events {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 18px;
+  padding: 72px 56px 72px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  background-color: #F7FBFC;
+}
+
+.upcoming-events2 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.upcoming-events3 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.editable-events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  width: 1088px;
+  height: fit-content;
+  max-width: 100%;
+}
+
+.biomedeng26 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+  padding: 26px 18px 40px 18px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  background-color: #EEF4FF;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.upcoming {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.event-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.biomedeng262 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text19 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.text20 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.event-page-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 18px 11px 18px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: #0B2450;
+}
+
+.event-page {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.microfluidics-research-open-lab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 26px 18px 20px 18px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  background-color: #EEF4FF;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.event-date2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.upcoming2 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.event-copy2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.manufacturing-open-lab {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text21 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.text22 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.event-page-cta2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 18px 11px 18px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: #0B2450;
+}
+
+.event-page2 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.custom-manufacturing-clinic {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 26px 18px 20px 18px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  background-color: #EEF4FF;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.event-date3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.upcoming3 {
+  text-align: center;
+  align-self: stretch;
+  height: 20px;
+}
+
+.event-copy3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.custom-design-clinic {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text23 {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.biomed-shed-university-ofstrathclyde {
+  text-align: center;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.event-page-cta3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 18px 11px 18px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  background-color: #0B2450;
+}
+
+.event-page3 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 22px;
+  padding: 72px 56px 72px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  background-color: #FFFFFF;
+}
+
+.faq2 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text24 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 1088px;
+  height: fit-content;
+  max-width: 100%;
+}
+
+.faq-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 18px 20px 18px 20px;
+  align-self: stretch;
+  height: fit-content;
+  border-radius: 16px;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.text25 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text26 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.trust-and-capabilities {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 72px 56px 72px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  background-color: #F7FBFC;
+}
+
+.text27 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.capabilities-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  width: 1088px;
+  height: fit-content;
+  max-width: 100%;
+}
+
+.manufacturing-capability {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 34px 18px 34px 18px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+}
+
+.custom-manufacturing {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.from-ideas-toearly-prototypes {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.training-capability {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 26px 18px 26px 18px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+}
+
+.practical-training {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text28 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.facilities-capability {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+}
+
+.specialist-facilities {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text29 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.support-capability {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+}
+
+.expert-support {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.text30 {
+  align-self: stretch;
+  height: fit-content;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 0;
+  outline: none;
+  resize: vertical;
+}
+
+.form-input:focus {
+  border-bottom-color: currentColor;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .opening-commerce-panel {
+    padding: 24px 32px 56px 32px;
+  }
+
+  .opening-content {
+    flex-direction: column;
+    padding: 64px 0px 24px 0px;
+  }
+
+  .opening-copy {
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .opening-visual {
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .editable-researcher-profiles {
+    width: 718px;
+  }
+
+  .work-with-us {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 56px 32px 56px 32px;
+  }
+
+  .work-with-us-copy {
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .enquiry-form {
+    width: 100%;
+  }
+
+  .upcoming-events {
+    padding: 56px 32px 56px 32px;
+  }
+
+  .faq {
+    padding: 56px 32px 56px 32px;
+  }
+
+  .faq-list {
+    width: 100%;
+  }
+
+  .trust-and-capabilities {
+    padding: 56px 32px 56px 32px;
+  }
+
+  .capabilities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .opening-commerce-panel {
+    padding: 16px 20px 44px 20px;
+  }
+
+  .opening-content {
+    flex-direction: column;
+    gap: 28px;
+    padding: 48px 0px 12px 0px;
+  }
+
+  .opening-copy {
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .text {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .opening-actions {
+    justify-content: center;
+    align-self: stretch;
+    width: initial;
+  }
+
+  .opening-visual {
+    display: none;
+    width: 206px;
+    height: 156px;
+    flex: initial;
+  }
+
+  .learn-about-biomed-shed {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 40px 20px 40px 20px;
+  }
+
+  .learn-about-copy {
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .learn-about-actions {
+    justify-content: center;
+    align-self: stretch;
+    width: initial;
+  }
+
+  .featured-products-intro {
+    align-items: flex-start;
+    gap: 27px;
+    padding: 68px 20px 28px 20px;
+  }
+
+  .products-heading {
+    gap: 14px;
+  }
+
+  .all-products {
+    text-align: initial;
+  }
+
+  .popular-products-editable {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 20px 56px 20px;
+    align-self: stretch;
+    grid-template-columns: initial;
+    width: initial;
+  }
+
+  .product-card {
+    align-self: stretch;
+    max-width: 350px;
+    width: initial;
+  }
+
+  .product-card2 {
+    align-self: stretch;
+    max-width: 350px;
+    width: initial;
+  }
+
+  .product-card3 {
+    align-self: stretch;
+    max-width: 350px;
+    width: initial;
+  }
+
+  .product-card4 {
+    align-self: stretch;
+    max-width: 350px;
+    width: initial;
+  }
+
+  .product-card5 {
+    align-self: stretch;
+    max-width: 350px;
+    width: initial;
+  }
+
+  .product-card6 {
+    align-self: stretch;
+    max-width: 350px;
+    width: initial;
+  }
+
+  .technology-researchers {
+    display: none;
+  }
+
+  .work-with-us {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    padding: 48px 20px 48px 20px;
+  }
+
+  .work-with-us-copy {
+    align-self: stretch;
+    flex: initial;
+  }
+
+  .enquiry-form {
+    padding: 16px;
+    width: 100%;
+  }
+
+  .upcoming-events {
+    display: none;
+    padding: 48px 20px 48px 20px;
+  }
+
+  .editable-events-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+    grid-template-columns: initial;
+    width: initial;
+  }
+
+  .biomedeng26 {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .microfluidics-research-open-lab {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .custom-manufacturing-clinic {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .faq {
+    display: none;
+    padding: 48px 20px 48px 20px;
+  }
+
+  .faq-list {
+    width: 100%;
+  }
+
+  .trust-and-capabilities {
+    display: none;
+    padding: 48px 20px 48px 20px;
+  }
+
+  .capabilities-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    grid-template-columns: initial;
+  }
+
+  .manufacturing-capability {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .training-capability {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .facilities-capability {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .support-capability {
+    align-self: stretch;
+    width: initial;
+  }
+}

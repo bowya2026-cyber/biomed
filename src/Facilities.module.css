@@ -1,0 +1,555 @@
+.facilities-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.facilities-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 34px;
+  padding: 56px 56px 72px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.facilities-equipment-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 44px;
+  padding: 50px 48px 50px 48px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 22px;
+  overflow: hidden;
+  background-color: #10284D;
+}
+
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  width: 100%;
+  height: fit-content;
+}
+
+.hero-eyebrow {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.hero-title {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.hero-description {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.contact-our-team-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px 12px 18px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.18);
+  border-width: 1px;
+}
+
+.contact-our-team-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.equipment-feature-image {
+  width: 100%;
+  height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/Ms62qE0ATybkXbmJghvliHvlhQw.jpg");
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.14);
+  border-width: 1px;
+}
+
+.facilities-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+}
+
+.facilities-eyebrow {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.facilities-title {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.facilities-description {
+  text-align: center;
+  width: 560px;
+  height: fit-content;
+  max-width: 100%;
+}
+
+.facilities-divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 2px;
+  position: relative;
+  background-color: #87CEEB;
+}
+
+.facilities-divider-accent {
+  width: 36%;
+  position: absolute;
+  top: -50px;
+  bottom: -48px;
+  left: -50px;
+  background-color: #EBD587;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px 18px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.laser-cutting-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 14px 36px 14px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 1px;
+}
+
+.laser-cutting-image {
+  width: 100%;
+  height: 176px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/2i1q3Q2U9bsH4i2ZVKh3lP8rIhI.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.laser-cutting-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.laser-cutting-lab {
+  width: 100%;
+  height: fit-content;
+}
+
+.laser-cutting-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.laser-cutting-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.laser-cutting-link {
+  width: fit-content;
+  height: fit-content;
+}
+
+.sla-3d-printing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 14px 36px 14px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 1px;
+}
+
+.sla-3d-printing-image {
+  width: 100%;
+  height: 176px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/lxX92kVoqEj5iBShIdMH83oOo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.sla-3d-printing-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.sla-3d-printing-lab {
+  width: 100%;
+  height: fit-content;
+}
+
+.sla-3d-printing-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.sla-3d-printing-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.sla-3d-printing-link {
+  width: fit-content;
+  height: fit-content;
+}
+
+.fdm-3d-printing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 14px 18px 14px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 1px;
+}
+
+.fdm-3d-printing-image {
+  width: 100%;
+  height: 176px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/mtRMhRYZnOtGXq8po7hIt1qbay0.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fdm-3d-printing-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.fdm-3d-printing-lab {
+  width: 100%;
+  height: fit-content;
+}
+
+.fdm-3d-printing-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.fdm-3d-printing-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.fdm-3d-printing-link {
+  width: fit-content;
+  height: fit-content;
+}
+
+.die-cutting-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 14px 42px 14px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 1px;
+}
+
+.die-cutting-image {
+  width: 100%;
+  height: 176px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/VQ72UwtTdlDhlpEPZqUmLxiEpf8.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.die-cutting-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.die-cutting-lab {
+  width: 100%;
+  height: fit-content;
+}
+
+.die-cutting-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.die-cutting-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.die-cutting-link {
+  width: fit-content;
+  height: fit-content;
+}
+
+.electronics-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 14px 40px 14px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 1px;
+}
+
+.electronics-image {
+  width: 100%;
+  height: 176px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/nAKejZev4BCAzspYkrJCbGJMvs.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.electronics-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.electronics-lab {
+  width: 100%;
+  height: fit-content;
+}
+
+.electronics-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.electronics-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.electronics-link {
+  width: fit-content;
+  height: fit-content;
+}
+
+.injection-moulding-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 14px 18px 14px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 1px;
+}
+
+.injection-moulding-image {
+  width: 100%;
+  height: 176px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/PdwXO1n91iGkxL4J05YLn0gEkQk.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.injection-moulding-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.injection-moulding-lab {
+  width: 100%;
+  height: fit-content;
+}
+
+.injection-moulding-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.injection-moulding-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.injection-moulding-link {
+  width: fit-content;
+  height: fit-content;
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 1199px) {
+  .facilities-main {
+    padding: 32px 20px 48px 20px;
+    max-width: 350px;
+  }
+
+  .facilities-equipment-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px 20px 32px 20px;
+    max-width: 350px;
+  }
+
+  .equipment-feature-image {
+    height: 220px;
+  }
+
+  .facilities-description {
+    width: 100%;
+  }
+
+  .facilities-divider-accent {
+    position: initial;
+    top: initial;
+    bottom: initial;
+    left: initial;
+  }
+
+  .facilities-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+    max-width: 100%;
+    grid-template-columns: initial;
+  }
+
+  .sla-3d-printing-image {
+    background-image: url("https://framerusercontent.com/images/oApz6CcNZwjvlahpXbHOihkOMzg.jpg");
+  }
+}

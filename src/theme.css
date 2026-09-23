@@ -1,0 +1,15 @@
+/* Generated from Framer colour styles. */
+:root {
+  --color-light-blue: rgb(135, 206, 235);
+  --color-yellow: rgb(235, 213, 135);
+}
+:root[data-theme="dark"] {
+    --color-light-blue: rgb(135, 206, 235);
+    --color-yellow: rgb(235, 213, 135);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-light-blue: rgb(135, 206, 235);
+    --color-yellow: rgb(235, 213, 135);
+  }
+}
