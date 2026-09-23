@@ -43,7 +43,7 @@ export default function CartItem({
         <p className={styles["unit-label"]}>{"Unit Label"}</p>
         <p className={styles["unit-value"]}>{"Unit Value"}</p>
       </div>
-      <QuantityStepper variant="Quantity 1" />
+     <QuantityStepper value={1} />
       <div className={styles["total"]}>
         <p className={styles["total-label"]}>{"Total Label"}</p>
         <p className={styles["total-value"]}>{"Total Value"}</p>
