@@ -1,0 +1,24 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 22px 14px 22px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* variant: Success */
+
+.default[data-variant="Success"] {
+  background-color: #EBD587;
+}

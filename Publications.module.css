@@ -1,0 +1,160 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.publications-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 72px 56px 28px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+}
+
+.section-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.page-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.page-introduction {
+  width: 100%;
+  height: fit-content;
+}
+
+.publication-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 0px 56px 96px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+}
+
+.publication-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 20px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.publication-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.publication-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.publication-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.read-paper {
+  width: fit-content;
+  height: fit-content;
+}
+
+.publication-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 20px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #DCE7F7;
+  border-width: 1px;
+}
+
+.publication-title2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.publication-description2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.publication-link2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.read-paper2 {
+  width: fit-content;
+  height: fit-content;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .publications-introduction {
+    padding: 64px 32px 24px 32px;
+  }
+
+  .publication-index {
+    padding: 0px 32px 80px 32px;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .publications-introduction {
+    padding: 56px 20px 24px 20px;
+  }
+
+  .publication-index {
+    padding: 0px 20px 64px 20px;
+  }
+
+  .publication-card {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,142 @@
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 0px 16px 0px;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.10);
+  border-width: 0px 0px 1px 0px;
+}
+
+.equipment-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+  height: fit-content;
+}
+
+.product-name {
+  width: 100%;
+  height: fit-content;
+}
+
+.product-description {
+  width: 100%;
+  height: fit-content;
+}
+
+.product-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.product-category {
+  width: fit-content;
+  height: fit-content;
+}
+
+.availability-badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px 5px 8px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: rgba(135, 206, 235, 0.18);
+}
+
+.availability {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.unit-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  width: 96px;
+  height: fit-content;
+}
+
+.unit-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.unit-value {
+  width: 100%;
+  height: fit-content;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 5px;
+  width: 84px;
+  height: fit-content;
+}
+
+.total-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.total-value {
+  width: 100%;
+  height: fit-content;
+}
+
+.remove {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 8px 6px 8px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: rgba(24, 49, 83, 0.16);
+  border-width: 1px;
+}
+
+.remove-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* variant: Removed */
+
+.cart-item[data-variant="Removed"] {
+  display: none;
+}

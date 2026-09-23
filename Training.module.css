@@ -1,0 +1,402 @@
+.training-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 52px;
+  padding: 36px 24px 96px 24px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.training-top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 9px 0px 9px 0px;
+  width: 100%;
+  height: fit-content;
+  max-width: 880px;
+}
+
+.back-home-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px 10px 14px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #D9EAF0;
+  border-width: 1px;
+}
+
+.back-home-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.training-opening {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 28px 32px 64px 32px;
+  width: 100%;
+  height: fit-content;
+  max-width: 880px;
+  background-color: #EEF5FF;
+}
+
+.coming-soon-badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 16px 5px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: rgb(135, 206, 235);
+  border-width: 2px;
+}
+
+.coming-soon-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.training-eyebrow {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.training-headline {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.training-hero-copy {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.ask-about-programme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px 10px 18px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: #87CEEB;
+}
+
+.ask-about-programme-label {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.practical-starting-point {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 53px 0px 53px 0px;
+  width: 100%;
+  height: fit-content;
+  max-width: 880px;
+}
+
+.training-intro-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  height: fit-content;
+}
+
+.training-intro-eyebrow {
+  width: 100%;
+  height: fit-content;
+}
+
+.training-intro-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.training-intro-paragraph {
+  width: 100%;
+  height: fit-content;
+}
+
+.training-can-include {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  background-color: #F8FCFF;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 1px;
+}
+
+.training-includes-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.biosensor-fundamentals {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0px 0px 10px 0px;
+  width: 100%;
+  height: fit-content;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 0px 0px 1px 0px;
+}
+
+.biosensor-fundamentals-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.biosensor-fundamentals-copy {
+  width: 100%;
+  height: fit-content;
+}
+
+.microfluidic-prototyping {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0px 0px 10px 0px;
+  width: 100%;
+  height: fit-content;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 0px 0px 1px 0px;
+}
+
+.microfluidic-prototyping-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.microfluidic-prototyping-copy {
+  width: 100%;
+  height: fit-content;
+}
+
+.lab-to-prototype-workflows {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  height: fit-content;
+}
+
+.text {
+  width: 100%;
+  height: fit-content;
+}
+
+.text2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.training-enquiry-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 25px 24px 25px 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 720px;
+  border-radius: 18px;
+  background-color: #F8FCFF;
+  border-style: solid;
+  border-color: #E5EEF2;
+  border-width: 1px;
+}
+
+.training-enquiry-title {
+  width: 100%;
+  height: fit-content;
+}
+
+.training-enquiry-copy {
+  width: 100%;
+  height: fit-content;
+}
+
+.training-enquiry-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.name-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.name-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.email-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.email-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.enquiry-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.enquiry-label {
+  width: 100%;
+  height: fit-content;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 0;
+  outline: none;
+  resize: vertical;
+}
+
+.form-input:focus {
+  border-bottom-color: currentColor;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .training-desktop {
+    gap: 40px;
+    padding: 32px 40px 80px 40px;
+  }
+
+  .training-top-bar {
+    max-width: 730px;
+  }
+
+  .training-opening {
+    padding: 28px 28px 56px 28px;
+    max-width: 730px;
+  }
+
+  .practical-starting-point {
+    flex-direction: column;
+    gap: 28px;
+    max-width: 730px;
+  }
+
+  .training-enquiry-section {
+    max-width: 730px;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .training-desktop {
+    gap: 36px;
+    padding: 24px 20px 72px 20px;
+  }
+
+  .training-top-bar {
+    max-width: 350px;
+  }
+
+  .back-home-button {
+    display: none;
+  }
+
+  .training-opening {
+    gap: 10px;
+    padding: 20px 20px 48px 20px;
+    max-width: 350px;
+  }
+
+  .practical-starting-point {
+    flex-direction: column;
+    gap: 24px;
+    max-width: 350px;
+  }
+
+  .training-enquiry-section {
+    max-width: 350px;
+  }
+}

@@ -1,0 +1,392 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.technology-researchers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 92px;
+  padding: 96px 56px 132px 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1200px;
+  background-color: #FFFFFF;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.editable-researcher-profiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  width: 1088px;
+  height: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.researcher-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/i8WpUwjwui7OTCIiGsGpT9SzE.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dr-alexandra-dobrea {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.founder-and-cto {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo2 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/02V8ofpjcCh8VonuOswBl21DgFs.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.alisdair-gordon {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.founder-and-cso {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile2 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo3 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/QC5ozHWx9Mxkv3dLOFyzylEdyM.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dr-jessie-howell {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.founder-and-ceo {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile3 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo4 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/XjDG07YyBJOixl6N2PWHlzMjo4A.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.oscar-weipers {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.development-engineer {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile4 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo5 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/FYrquPuCRw0MmOaqYYNa6DZvHGY.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.lilian-collins {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.chemist-and-production-associate {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile5 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo6 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/0fbD6aEZmveHt3SccWBXlKvbAI.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.prof-damion-corrigan {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.scientific-advisor {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile6 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.researcher-card7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo7 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/c4C2WWfc3Qmv6FZjahUCO4LSRk.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dr-melanie-jimenez {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.scientific-advisor2 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.visit-profile7 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.bowya-subramanian-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.researcher-photo8 {
+  width: 260px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/FJCiuVA6IhBZgCbwOqBzQLwS1Q.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bowya-subramanian {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.web-designer {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.add-profile-link {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .technology-researchers {
+    padding: 80px 32px 100px 32px;
+  }
+
+  .editable-researcher-profiles {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 100%;
+    overflow: initial;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .technology-researchers {
+    padding: 64px 20px 80px 20px;
+  }
+
+  .editable-researcher-profiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 56px;
+    width: 100%;
+    grid-template-columns: initial;
+    overflow: initial;
+  }
+
+  .researcher-photo7 {
+    background-image: url("https://framerusercontent.com/images/FJCiuVA6IhBZgCbwOqBzQLwS1Q.png");
+  }
+
+  .researcher-photo8 {
+    background-image: url("https://framerusercontent.com/images/cR9CobzsJsrLkMCgH6H5aeE2opA.png");
+  }
+}

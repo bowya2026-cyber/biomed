@@ -1,0 +1,408 @@
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.contact-introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding: 56px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+  border-radius: 28px;
+  overflow: hidden;
+  background-image: linear-gradient(135deg, rgb(238, 244, 255) 0%, rgb(221, 234, 255) 100%);
+}
+
+.introduction-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.eyebrow {
+  width: 100%;
+  height: fit-content;
+}
+
+.title {
+  width: 100%;
+  height: fit-content;
+}
+
+.subtitle {
+  width: 100%;
+  height: fit-content;
+}
+
+.laboratory-image {
+  width: 360px;
+  height: 280px;
+  border-radius: 22px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/7PN4J0iY2huKZeZKDTaPnPre4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-workspace {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  padding: 56px 0px 0px 0px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1088px;
+}
+
+.contact-form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 32px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #E1EDF2;
+  border-width: 1px;
+}
+
+.eyebrow2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.title2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.copy {
+  width: 100%;
+  height: fit-content;
+}
+
+.enquiry-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.name-and-email {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  width: 100%;
+  height: fit-content;
+}
+
+.full-name-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.label {
+  width: 100%;
+  height: fit-content;
+}
+
+.email-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.label2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.organisation-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.label3 {
+  width: 100%;
+  height: fit-content;
+}
+
+.enquiry-type-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.label4 {
+  width: 100%;
+  height: fit-content;
+}
+
+.subject-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.label5 {
+  width: 100%;
+  height: fit-content;
+}
+
+.message-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+}
+
+.label6 {
+  width: 100%;
+  height: fit-content;
+}
+
+.form-note {
+  width: 100%;
+  height: fit-content;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 32px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #F7FBFC;
+  border-style: solid;
+  border-color: #E1EDF2;
+  border-width: 1px;
+}
+
+.eyebrow3 {
+  width: 100%;
+  height: fit-content;
+}
+
+.title3 {
+  width: 100%;
+  height: fit-content;
+}
+
+.copy2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.email-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 18px;
+  background-color: rgba(135, 206, 235, 0.5);
+}
+
+.email-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  height: fit-content;
+}
+
+.heading {
+  width: 100%;
+  height: fit-content;
+}
+
+.email-link {
+  width: 100%;
+  height: fit-content;
+}
+
+.linkedin-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px 14px 16px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 999px;
+  background-color: rgba(135, 206, 235, 0.5);
+}
+
+.label7 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 0;
+  outline: none;
+  resize: vertical;
+}
+
+.form-input:focus {
+  border-bottom-color: currentColor;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .contact-introduction {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px;
+    max-width: 100%;
+  }
+
+  .laboratory-image {
+    width: 100%;
+    height: 260px;
+  }
+
+  .contact-workspace {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 40px 0px 0px 0px;
+    max-width: 100%;
+    grid-template-columns: initial;
+  }
+
+  .contact-form-card {
+    padding: 28px;
+    height: fit-content;
+  }
+
+  .contact-information {
+    padding: 28px;
+    height: fit-content;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .contact-introduction {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 28px;
+    max-width: 100%;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .laboratory-image {
+    width: 100%;
+    height: 220px;
+    display: none;
+  }
+
+  .contact-workspace {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 32px 20px 0px 20px;
+    max-width: 100%;
+    grid-template-columns: initial;
+  }
+
+  .contact-form-card {
+    display: none;
+    padding: 24px;
+    height: fit-content;
+  }
+
+  .name-and-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-template-columns: initial;
+  }
+
+  .contact-information {
+    padding: 24px;
+    height: fit-content;
+  }
+}
